@@ -38,19 +38,19 @@ struct b:View {
         TabView{
             ContentView().tabItem { VStack{
                 Image(systemName: "homekit")
-                Text("").font(.custom("", size: 14))
+                Text("Главное").font(.custom("", size: 14))
             } }.tag(1)
             g1().tabItem { VStack{
                 Image(systemName: "homekit")
-                Text("").font(.custom("", size: 14))
+                Text("Финансы").font(.custom("", size: 14))
             } }.tag(2)
             g2().tabItem { VStack{
                 Image(systemName: "homekit")
-                Text("").font(.custom("", size: 14))
+                Text("Тарифы и услуги").font(.custom("", size: 14))
             } }.tag(3)
             g3().tabItem { VStack{
                 Image(systemName: "homekit")
-                Text("").font(.custom("", size: 14))
+                Text("Ещё").font(.custom("", size: 14))
             } }.tag(4)
         }.accentColor(Color("yel"))
     }
