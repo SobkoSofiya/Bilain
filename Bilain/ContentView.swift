@@ -274,7 +274,7 @@ struct v4:View {
                             .frame(width: 120, height: 150, alignment: .center)
                         VStack(alignment:.leading){
                             Image("p").resizable().frame(width: 50, height: 50, alignment: .center)
-                            Text("dfg").foregroundColor(.gray).font(.custom("", size: 15))
+                            Text("Скидки и \nпредложения").foregroundColor(Color("bl")).font(.custom("", size: 15))
                         }.padding()
                         
                     }
@@ -284,7 +284,7 @@ struct v4:View {
                                 .frame(width: 120, height: 150, alignment: .center)
                             VStack(alignment:.leading){
                                 Image("p").resizable().frame(width: 50, height: 50, alignment: .center)
-                                Text("dfg").foregroundColor(.gray).font(.custom("", size: 15))
+                                Text("Стройность \nкак образ \nжизни").foregroundColor(.white).font(.custom("", size: 15))
                             }.padding()
                             
                         }
@@ -294,7 +294,7 @@ struct v4:View {
                                 .frame(width: 120, height: 150, alignment: .center)
                             VStack(alignment:.leading){
                                 Image("p").resizable().frame(width: 50, height: 50, alignment: .center)
-                                Text("dfg").foregroundColor(.gray).font(.custom("", size: 15))
+                                Text("Узнать \nкредитный \nлимит").foregroundColor(Color("bl")).font(.custom("", size: 15))
                             }.padding()
                             
                         }
@@ -304,7 +304,7 @@ struct v4:View {
                                 .frame(width: 120, height: 150, alignment: .center)
                             VStack(alignment:.leading){
                                 Image("p").resizable().frame(width: 50, height: 50, alignment: .center)
-                                Text("dfg").foregroundColor(.gray).font(.custom("", size: 15))
+                                Text("До 15 000 \nна вашу \nкарту").foregroundColor(Color("bl")).font(.custom("", size: 15))
                             }.padding()
                             
                         }
